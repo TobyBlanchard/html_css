@@ -9,61 +9,81 @@
 
 		}
 		#wrapper{
-			width: 700px;
-			margin: 0 auto;
+			
+			
 
 		}
-		#header-section{
+		#header-section h1{
 			text-align: center;
 			font-style: italic;
 			
+
+
+			
+		}
+		
+		#main-section{
+			display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+   		    width: 50%;
+			
+		}
+		img{
+			border-radius: 10px;
 		}
 		#thumbnail-section{
 			float: left;
-			margin: 0 auto;
-			width: 150px;
-			
 
 		}
-		#main-section{
-			float: right;
-			margin: 75px auto;
+		#main-section img{
+			margin-top: 10%;
+			border-radius: 100px;
+			width: 675px;
 		}
-		img{
-			width: 500px;
-			border-radius: 10px;
+		body{
+			background-color: #4E4907;
+			color: white;
+
+
 		}
 
 	</style>
 </head>
 <body>
 
-</body>
+
+
 	<div id="wrapper">
 		<div id="header-section">
 			<h1>Plantation Homes of Louisiana</h1>
 		</div>
+		
 		<div id="thumbnail-section">
 			<figure>
-			<img class="thumb" src="./Images/Myrtles-Plantation.jpg" onClick="bigPic.src = this.src" />
-			<figfigcaption>Myrtles Plantation</figfigcaption>
+				<img class="thumb" src="./Images/Myrtles-Plantation.jpg" onClick="bigPic.src = this.src"  />
+				<figcaption>Myrtles Plantation</figcaption>
 			</figure>
 			<figure>
-			<img class="thumb" src="./Images/nottaway.jpg" onClick="bigPic.src = this.src" />
-			<figcaption>Nottaway Plantation</figcaption>
+				<img class="thumb" src="./Images/nottaway.jpg" onClick="bigPic.src = this.src" />
+				<figcaption>Nottaway Plantation</figcaption>
 			</figure>
-			<figure><img class="thumb" src="./Images/OakAlleyPlantation.jpg" onClick="bigPic.src = this.src" />
+			<figure>
+				<img class="thumb" src="./Images/OakAlleyPlantation.jpg" onClick="bigPic.src = this.src" />
 			<figcaption>Oak Alley Plantation</figcaption>
-		</figure>
-			<figure>
-			<img class="thumb" src="./Images/san-francisco-plantation-louisiana.jpg" onClick="bigPic.src = this.src" />
-			<figcaption>San Francisco Plantation</figcaption>
-		</figure>
+			</figure>
+				<figure>
+				<img class="thumb" src="./Images/san-francisco-plantation-louisiana.jpg" onClick="bigPic.src = this.src" />
+				<figcaption>San Francisco Plantation</figcaption>
+				
+			</figure>
 
 		</div>
 		<div id="main-section">
 			<img src="./Images/san-francisco-plantation-louisiana.jpg" name="bigPic" />
 			
+			
 		</div>
 	</div>
+</body>
 </html>
